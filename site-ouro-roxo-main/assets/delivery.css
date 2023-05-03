@@ -1,0 +1,53 @@
+/*----------------------------fontes-------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins&display=swap');
+/*----------------------------geral-------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+   
+}
+a, h2{
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right,#fff, #490083);
+    padding: 50px;
+}
+/*--------------------------------------menu-------------------------*/
+.cantainer {
+    background: linear-gradient(to right,#a700c9, #490083);
+    width: 650px;
+    min-height: 550px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 darkgrey;
+}       
+        ul, li, p{
+            list-style: none;
+        }
+        h2{
+            text-align: center;
+            padding: 10px;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+        }
+        a:hover{
+            opacity: 50%;  
+        }
+/***********************Tabela*********************************/
+table{
+    width: 100%;
+    margin-top: 20px;
+}
+td{
+    text-align: center;
+    
+}

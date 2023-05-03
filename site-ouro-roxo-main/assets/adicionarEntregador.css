@@ -1,0 +1,65 @@
+/*----------------------------fontes-------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins&display=swap');
+/*----------------------------geral-------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right,#fff, #490083);
+    padding: 50px;
+}
+/*--------------------------------------menu-------------------------*/
+.cantainer {
+    background: linear-gradient(to right,#a700c9, #490083);
+    width: 650px;
+    min-height: 550px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 darkgrey;
+}       
+       h2{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+            padding: 10px;
+} 
+header{
+    margin-top: 20px;
+}
+a{
+    margin-left: 20px;
+}
+/**************************formulario**********************/
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+}
+form input{
+    margin: 20px 0 12px 0;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 10px #303030;
+}
+button{
+    font-size: 25px;
+    margin: 20px 0 12px 0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 10px #303030;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 50%;
+}

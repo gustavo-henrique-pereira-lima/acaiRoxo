@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mate SC', serif;
+    font-size: 25px;
+}
+a, p{
+    text-decoration: none;
+    color: white;
+}
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    
+}
+
+/*body{
+    background: linear-gradient(#7E42AC, #594668 );
+    background-repeat: no-repeat;
+    background-color: #5c317e;
+}*/
+/*---------------------menu-----------------*/
+header{
+    text-align: center;
+    
+}
+.menu{
+    background: #b481d1;
+    padding: 5px;
+    display: flex;
+    align-content: stretch;
+    
+}
+        .menu ul li{
+            display: inline-block;
+            padding: 50px;
+        }
+        .menu ul li a:hover{
+            opacity: 30%;
+            
+        }
+        
+.logo{
+    border-radius: 50%;
+    width: 90px;
+}
+.iconeUsuario{
+    width: 95px;
+}
+
+/*********************Principal************************/
+ section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }       
+            .imagem{
+                width: 100%;
+            }
+            .img{
+                width: 100%;
+                height: 100%;
+            }
+            .texto{   
+                background: linear-gradient(to right,#b982e7 , #490083);
+                width: 100%;
+                height: 100%;
+                display: flex;
+                text-align: center;
+            }
+            button{
+                width: 300px;
+                border-radius: 10px;
+                font-size: 40px;
+                cursor: pointer;
+                box-shadow: 3px 3px 10px;
+                border: .5px;
+            }
+            button:hover{
+                opacity: 30%;
+            }
+        
+    
